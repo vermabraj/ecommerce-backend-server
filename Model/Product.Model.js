@@ -8,7 +8,7 @@ const productSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    date: {
+    post_uploaded: {
       type: String,
       required: true,
     },
@@ -20,6 +20,39 @@ const productSchema = mongoose.Schema(
     description: {
       type: String,
       required: true,
+    },
+    rating: {
+      type: Number,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    distance: {
+      type: String,
+      required: true,
+    },
+    category: {
+      type: String,
+      required: true,
+    },
+    location: {
+      type: String,
+      required: true,
+    },
+    featured: {
+      type: String,
+    },
+    warranty: {
+      type: String,
+    },
+
+    image1: {
+      type: String,
+    },
+    image2: {
+      type: String,
     },
   },
   {
