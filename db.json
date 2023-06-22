@@ -1,327 +1,236 @@
-
 [
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3lU7KYa",
-        "rating": 9,
-        "brand": "Louis Philippe",
-        "description": "Mens Slip Fit Jeans",
-        "price": 1899
-    },
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3IdWk8Q",
-        "rating": 9.5,
-        "brand": "Louis Philippe",
-        "description": "Men Skinny Fit Jeans",
-        "price": 4000
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3YMH4aa",
-        "rating": 7.5,
-        "brand": "Levis Jeans",
-        "description": "Women Skinny Fit Jeans",
-        "price": 3689
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3xIcena",
-        "rating": 8.8,
-        "brand": "Levis Jeans",
-        "description": "Women Slim Fit Jeans",
-        "price": 1800
-    },
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3Z8wZE9",
-        "rating": 5.5,
-        "brand": "Pepe Jeans",
-        "description": "Mens Slip Fit Jeans",
-        "price": 1399
-    },
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/41knkMH",
-        "rating": 8.5,
-        "brand": "Pepe Jeans",
-        "description": "Men Skinny Fit Jeans",
-        "price": 2149
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3KopKUE",
-        "rating": 7.5,
-        "brand": "Pepe Jeans",
-        "description": "Women Skinny Fit Jeans",
-        "price": 3689
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3ILrvKw",
-        "rating": 8.8,
-        "brand": "Pepe Jeans",
-        "description": "Women Slim Fit Jeans",
-        "price": 1800
-    },
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3KsMK4N",
-        "rating": 7.5,
-        "brand": "Jack & Jones",
-        "description": "Mens Bootcut Cotton Jeans",
-        "price": 1999
-    },
-    {
-        "category":"Jeans",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3ZdjaEq",
-        "rating": 8.5,
-        "brand": "Jack & Jones",
-        "description": "Men Skinny Fit Jeans",
-        "price": 3500
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3KopKUE",
-        "rating": 8.5,
-        "brand": "SPYKAR",
-        "description": "Women Skinny Fit Jeans",
-        "price": 1264
-    },
-    {
-        "category":"Jeans",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3ILrvKw",
-        "rating": 9.8,
-        "brand": "SPYKAR",
-        "description": "Women Slim Fit Jeans",
-        "price": 1500
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3knrAub",
-        "rating": 5.5,
-        "brand": "Louis Philippe",
-        "description": "Mens Solid Formal Shirt",
-        "price": 1999
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3XNaTGh",
-        "rating": 7.5,
-        "brand": "Louis Philippe",
-        "description": "Classic Fromal Cotton Shirt",
-        "price": 4500
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3ZsYRTZ",
-        "rating": 8,
-        "brand": "Hancock",
-        "description": "Women Slim Formal Shirt",
-        "price": 759
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3Es0SHG",
-        "rating": 9,
-        "brand": "Hancock",
-        "description": "Women Cotton Shirt",
-        "price": 800
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3Z87CT5",
-        "rating": 7.5,
-        "brand": "Allen Solly",
-        "description": "Mens Slim Fit Formal Shirt",
-        "price": 2500
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3Et52Px",
-        "rating": 6.5,
-        "brand": "Allen Solly",
-        "description": "Classic Fromal Cotton Shirt",
-        "price": 2220
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3XWaa5z",
-        "rating": 9,
-        "brand": "Allen Solly Women",
-        "description": "Women Slim Formal Shirt",
-        "price": 1700
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3Kp94MD",
-        "rating": 9.5,
-        "brand": "Allen Solly Women",
-        "description": "Women Cotton Shirt",
-        "price": 1600
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3YU04DK",
-        "rating": 10,
-        "brand": "Van Heusen",
-        "description": "Mens Slim Fit Formal Shirt",
-        "price": 5000
-    },
-    {
-        "category":"Shirts",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3IoqiXM",
-        "rating": 9.9,
-        "brand": "Van Heusen",
-        "description": "Classic Fromal Cotton Shirt",
-        "price": 6000
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3Sr0zTu",
-        "rating": 8.5,
-        "brand": "Van Heusen Women",
-        "description": "Women Slim Formal Shirt",
-        "price": 1000
-    },
-    {
-        "category":"Shirts",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3Zt2LfB",
-        "rating": 9.5,
-        "brand": "Van Heusen Women",
-        "description": "Women Cotton Shirt",
-        "price": 2000
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3SgBqLb",
-        "rating": 5.5,
-        "brand": "Puma",
-        "description": "Mens Smooth Walking Running Shoe",
-        "price": 2250
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3SlQKpy",
-        "rating": 5,
-        "brand": "Puma",
-        "description": "Men Fusion Running Shoes",
-        "price": 4050
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3XRNx28",
-        "rating": 4.5,
-        "brand": "Puma",
-        "description": "Women Running Shoes",
-        "price": 2750
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3YMUfYG",
-        "rating": 4.9,
-        "brand": "Puma",
-        "description": "Women Zode Running Shoes",
-        "price": 1500
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3EsaxxW",
-        "rating": 5.1,
-        "brand": "Skechers",
-        "description": "Mens Bounded Sneakers",
-        "price": 4900
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3IG77cv",
-        "rating": 5.5,
-        "brand": "Skechers",
-        "description": "Mens Solid Sneakers",
-        "price": 2500
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3YQ24wV",
-        "rating": 4.2,
-        "brand": "Skechers",
-        "description": "Women Air-Cooled Sneakers",
-        "price": 5500
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3ZdeUFk",
-        "rating": 4.5,
-        "brand": "Skechers",
-        "description": "Women On The Go Sneakers",
-        "price": 6000
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3SlBcCq",
-        "rating": 4.1,
-        "brand": "Nike",
-        "description": "Mens Court Vision Sneakers",
-        "price": 4955
-    },
-    {
-        "category":"Shoes",
-        "gender": "Men",
-        "imageSrc": "https://bit.ly/3KsSThr",
-        "rating": 5.6,
-        "brand": "Nike",
-        "description": "Air Force Sneakers",
-        "price": 10000
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3lQCA3L",
-        "rating": 4.2,
-        "brand": "Nike",
-        "description": "Women Basket Ball Shoe",
-        "price": 5500
-    },
-    {
-        "category":"Shoes",
-        "gender": "Women",
-        "imageSrc": "https://bit.ly/3lPfL0d",
-        "rating": 4.7,
-        "brand": "Nike",
-        "description": "Women Go Walk Shoe",
-        "price": 5099
-    }
+  {
+    "imageSrc": "https://www.olx.in/item/honda-brio-2013-2016-vx-2015-petrol-iid-1697184158",
+    "featured": "Featured",
+    "price": "₹ 4,35,000",
+    "distance": "2015 - 47000.0 km",
+    "title": "Honda Brio",
+    "location": "Shivdarshan Society",
+    "post_uploaded": "Aug 02",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/sy25e7vv9q331-IN/image;s=780x0;q=60",
+    "warranty": "https://apollo-singapore.akamaized.net/v1/files/7eom1v86y0v22-IN/image;s=780x0;q=60",
+    "category": "car",
+    "rating":"5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/renault-kwid-rxt-2016-petrol-iid-1710289065",
+    "featured": "Featured",
+    "price": "₹ 3,45,000",
+    "distance": "2016 - 35000.0 km",
+    "title": "Renault KWID",
+    "location": "Rajaji Nagar",
+    "post_uploaded": "Nov 10",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/ua44a4eve7uc2-IN/image;s=780x0;q=60",
+    "warranty": "Verified Seller",
+    "category": "car",
+    "rating": "4.5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-ciaz-2020-petrol-iid-1714171336",
+    "featured": "Featured",
+    "price": "₹ 10,04,346",
+    "distance": "2020 - 42,541 km",
+    "title": "maruti-suzuki maruti-suzuki-ciaz",
+    "location": "Sukhrali",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/2vlu8fmvhsip-IN/image;s=780x0;q=60",
+    "warranty": "Warranty",
+    "category": "car",
+    "rating": "4"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-vitara-brezza-2019-diesel-iid-1714198589",
+    "featured": "",
+    "price": "₹ 8,10,000",
+    "distance": "2019 - 40,000 km",
+    "title": "maruti-suzuki maruti-suzuki-vitara-brezza",
+    "location": "Shanjar Pur",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/q3175b4zcvav2-IN/image;s=780x0;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "3"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-alto-2011-petrol-iid-1714198566",
+    "featured": "",
+    "price": "₹ 1,40,000",
+    "distance": "2011 - 50,000 km",
+    "title": "maruti-suzuki maruti-suzuki-alto",
+    "location": "Mahakali Nagar",
+    "post_uploaded": "Today",
+    "image1": "https://in.fcgapi.com/image/olxautos-prd-inspection-images-ap-southeast-1/c5f24fb4-c2bd-47ad-8ab0-86bed840b95e/123044/850/478?watermark=false&country=in&cache=true",
+    "warranty": "",
+    "category": "car",
+    "rating": "3.7"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/hyundai-i10-11l-irde-era-special-edition-2014-petrol-iid-1714198730",
+    "featured": "",
+    "price": "₹ 3,10,000",
+    "distance": "2014 - 36,000 km",
+    "title": "hyundai hyundai-i10",
+    "location": "AGCR Enclave",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/0z78gkn0vcbt3-IN/image;s=780x0;q=60",
+    "warranty": "https://apollo-singapore.akamaized.net/v1/files/fadr6fjamjll-IN/image;s=780x0;q=60",
+    "category": "car",
+    "rating": "4.7"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/hyundai-verna-fluidic-16-sx-crdi-opt-at-2018-diesel-iid-1714198726",
+    "featured": "",
+    "price": "₹ 9,49,000",
+    "distance": "2018 - 61,000 km",
+    "title": "hyundai hyundai-verna",
+    "location": "Rohini Sector 10",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/3g7uuj3tgm7i-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/amroha-sa-atrasi-iid-1714198710",
+    "featured": "",
+    "price": "₹ 5,80,000",
+    "distance": "2017 - 27,500 km",
+    "title": "maruti-suzuki Swift",
+    "location": "Awas Vikas Colony",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/5i74lirb65k13-IN/image;s=780x0;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "4"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/tata-indigo-ecs-2015-diesel-135000-km-driven-iid-1714198708",
+    "featured": "",
+    "price": "₹ 1,35,000",
+    "distance": "2015 - 135,000 km",
+    "title": "tata tata-indigo-ecs",
+    "location": "Subhash Nagar",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/bw5e4xlspvy91-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "3.2"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-swift-vdi-bs-iv-2012-diesel-iid-1714198673",
+    "featured": "",
+    "price": "₹ 2,60,000",
+    "distance": "2012 - 51,000 km",
+    "title": "maruti-suzuki Swift",
+    "location": "Gariya Baishnabghata",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/a5pfzw8gry7u1-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "2.5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-ertiga-vxi-cng-2021-cng-hybrids-iid-1714198669",
+    "featured": "",
+    "price": "₹ 11,60,000",
+    "distance": "2021 - 31,000 km",
+    "title": "maruti-suzuki Ertiga",
+    "location": "Krishna Nagar",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/1h1p0ykf2erv1-IN/image;s=300x600;q=60",
+    "warranty": "Verified Seller",
+    "category": "car",
+    "rating": "4.9"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/mahindra-scorpio-2011-diesel-well-maintained-iid-1714198666",
+    "featured": "",
+    "price": "₹ 3,40,000",
+    "distance": "2011 - 138,000 km",
+    "title": "mahindra mahindra-scorpio",
+    "location": "Marautla",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/dibw3wfqdkbu3-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "4.2"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-alto-k10-vxi-2011-petrol-iid-1714198654",
+    "featured": "",
+    "price": "₹ 1,95,000",
+    "distance": "2011 - 62,813 km",
+    "title": "maruti-suzuki maruti-suzuki-alto-k10",
+    "location": "Nerul",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/ey3zq93prc8r2-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "4"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/bmw-3-series-320d-2010-diesel-iid-1714198636",
+    "featured": "",
+    "price": "₹ 8,90,000",
+    "distance": "2010 - 145,000 km",
+    "title": "bmw 3 Series",
+    "location": "Adyar",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/m3e4l8zby7mt2-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/bmw-5-series-520d-prestige-plus-2020-diesel-iid-1704830678",
+    "featured": "Featured",
+    "price": "₹ 58,00,000",
+    "distance": "2020 - 10,000 km",
+    "title": "bmw bmw-5-series",
+    "location": "Bandra West",
+    "post_uploaded": "Sep 27",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/7z2ln749aadm3-IN/image;s=300x600;q=60",
+    "warranty": "Verified Seller",
+    "category": "car",
+    "rating": "3.7"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/maruti-suzuki-alto-2005-2010-lx-bsiii-2007-petrol-iid-1713812977",
+    "featured": "Featured",
+    "price": "₹ 1,00,000",
+    "distance": "2007 - 1 km",
+    "title": "maruti-suzuki maruti-suzuki-alto",
+    "location": "Vaduvanchal",
+    "post_uploaded": "3 days ago",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/0z78gkn0vcbt3-IN/image;s=780x0;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "4.5"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/mercedes-benz-gle-class-250d-2018-diesel-iid-1710899814",
+    "featured": "Featured",
+    "price": "₹ 64,00,000",
+    "distance": "2018 - 72,000 km",
+    "title": "mercedes-benz mercedes-benz-gle",
+    "location": "Anchal",
+    "post_uploaded": "Nov 15",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/apkcsdlxa8wb1-IN/image;s=300x600;q=60",
+    "warranty": "",
+    "category": "car",
+    "rating": "4"
+  },
+  {
+    "imageSrc": "https://www.olx.in/item/tata-manza-aura-abs-quadrajet-bs-iv-2012-diesel-iid-1714198615",
+    "featured": "",
+    "price": "₹ 2,09,000",
+    "distance": "2012 - 174,921 km",
+    "title": "tata tata-manza",
+    "location": "Thillai Nagar",
+    "post_uploaded": "Today",
+    "image1": "https://apollo-singapore.akamaized.net/v1/files/deqwo6xwt3d9-IN/image;s=300x600;q=60",
+    "warranty": "Warranty",
+    "category": "car",
+    "rating": "2.7"
+  }
 ]

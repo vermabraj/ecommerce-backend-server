@@ -23,10 +23,10 @@ const productSchema = mongoose.Schema(
     },
     rating: {
       type: Number,
-      required: true,
+      
     },
     price: {
-      type: Number,
+      type: String,
       required: true,
     },
     distance: {
