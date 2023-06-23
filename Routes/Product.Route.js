@@ -12,32 +12,42 @@ productRoute.get("/:id", async (req, res) => {
   }
 });
 
+
+
+
 productRoute.get("/", async (req, res) => {
-  const title = req.query.title;  
-  if (title) {
-    try {
-      let productData = await ProductModel.find({
-        $and: [{ title: { $regex: `${title}`, $options: "i" } }],
-      });
-      res.send(productData);
-    } catch (err) {
-      console.log(err);
-      res.status(500).send({ message: err.message });
-    }
-  } else if (title) {
-    try {
-      const productData = await ProductModel.find({
-        title: { $regex: `${title}`, $options: "i" },
-      });
-      res.send(productData);
-    } catch (err) {
-      res.status(500).send({ message: err.message });
-    }
-  } else {
-    const product = await ProductModel.find();
-    res.send(product);
+  try {
+    const min = parseInt(req.query.min);
+    const max = parseInt(req.query.max);
+    const brand = req.query.brand;
+    const page = parseInt(req.query.page) - 1 || 0;
+    const limit = parseInt(req.query.limit) || 1000;
+    const search = req.query.search || "";
+    let category = req.query.category;
+
+    const filters = [{ title: { $regex: search, $options: "i" } }];
+    if (min) filters.push({ price: { $gte: min } });
+    if (max) filters.push({ price: { $lte: max } });
+    if (brand) filters.push({ brand: brand });
+    if (category) filters.push({ category: category });
+
+    const sortBy = {};
+    if (req.query.price) sortBy["price"] = req.query.price;
+    if (req.query.rating) sortBy["rating"] = req.query.rating;
+
+    const products = await ProductModel.find({ $and: filters })
+      .sort(sortBy)
+      .skip(page * limit)
+      .limit(limit);
+
+    res.send(products);
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({ error: true, message: "Internal Server Error" });
   }
 });
+
+
 
 productRoute.post("/create", async (req, res) => {
   try {
