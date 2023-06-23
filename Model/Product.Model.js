@@ -31,7 +31,7 @@ const productSchema = mongoose.Schema(
     },
     distance: {
       type: String,
-      required: true,
+      
     },
     category: {
       type: String,
