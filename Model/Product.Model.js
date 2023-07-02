@@ -13,8 +13,8 @@ const productSchema = mongoose.Schema(
       required: true,
     },
     imageSrc: {
-      type: String,
-      required: true,
+      type: String
+     
     },
 
     description: {
@@ -50,6 +50,7 @@ const productSchema = mongoose.Schema(
 
     image1: {
       type: String,
+       required: true,
     },
     image2: {
       type: String,
